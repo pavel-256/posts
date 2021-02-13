@@ -36,7 +36,7 @@ export default class AddPost extends Component {
     return (
       <div align="center" className="addPost">
         <h1 className="posts mb-3">Add New Post</h1>
-        <div className="col-5">
+        <div className="col-lg-5  col-sm-5">
           <input
             style={{ backgroundColor: this.state.validNameColor }}
             id="name"

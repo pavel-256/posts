@@ -76,7 +76,7 @@ export default class Post extends Component {
       <div align="center" className="postList">
         <div className="card mb-3 " style={style}>
           <div className="row no-gutters">
-            <div className="col-md-4">
+            <div className="col-md-4 ">
               <img
                 style={styleImg}
                 src={this.props.img}
